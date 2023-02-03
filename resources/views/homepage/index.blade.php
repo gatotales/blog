@@ -12,4 +12,3 @@
         {{ $articles->links() }}
     </div>
 </x-guest-layout>
-

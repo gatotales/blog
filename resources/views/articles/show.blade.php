@@ -4,6 +4,12 @@
         {{ $article->published_at }}
     </div>
     <div>
+                <img src="{{asset('storage/' . $article->img_path)}}" alt="Ilustration">
+    </div>
+    <div>
         {!! \nl2br($article->body) !!}
+    </div>
+    <div>
+        <a href="{{route('articles.index')}}">Retour à la Liste des Articles</a>
     </div>
 </x-guest-layout>

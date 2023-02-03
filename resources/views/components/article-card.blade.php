@@ -3,6 +3,9 @@
     <div class="uppercase font-bold text-gray-800">
         {{ $article->title }}
     </div>
+    <div>
+        <img src="{{asset('storage/' . $article->img_path)}}" alt="Ilustration">
+    </div>
     <div class="flex-grow text-gray-700 text-sm text-justify">
         {{ Str::limit($article->body, 120) }}
     </div>

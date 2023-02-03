@@ -38,6 +38,11 @@
             <main>
                 {{ $slot }}
             </main>
+            <footer>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </footer>
         </div>
     </div>
 </body>
